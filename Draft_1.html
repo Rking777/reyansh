@@ -1,0 +1,205 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swati Yoga Studio Punawale</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Californian FB', serif, 'Roboto', sans-serif;
+            background-color: #fff;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            background: url('https://source.unsplash.com/1600x900/?yoga') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        header {
+            background-color: rgba(106, 13, 173, 0.8);
+            color: white;
+            padding: 30px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 0;
+            letter-spacing: 1px;
+        }
+
+        .punawale {
+            font-size: 22px;
+            font-style: italic;
+            color: #dcdcdc;
+        }
+
+        .know-more-link {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            background-color: #4b0082;
+            padding: 12px 24px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .know-more-link:hover {
+            background-color: #530a8b;
+            transform: scale(1.1);
+        }
+
+        .main-content {
+            text-align: center;
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-content h2 {
+            font-size: 36px;
+            color: #6a0dad;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .main-content p {
+            font-size: 18px;
+            color: #555;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .services {
+            font-size: 20px;
+            margin-top: 20px;
+            color: #6a0dad;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .services span {
+            display: inline-block;
+            margin: 10px 15px;
+            font-weight: 500;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .services span:hover {
+            color: #530a8b;
+            transform: scale(1.1);
+        }
+
+        .cta {
+            background-color: #6a0dad;
+            color: white;
+            text-decoration: none;
+            padding: 12px 30px;
+            margin-top: 40px; /* Moved further down */
+            font-size: 18px;
+            border-radius: 8px;
+            display: inline-block;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .cta:hover {
+            background-color: #530a8b;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #4b0082;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+
+        .contact-info {
+            font-size: 18px;
+            color: #6a0dad;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .main-content h2 {
+                font-size: 30px;
+            }
+
+            .services {
+                font-size: 18px;
+            }
+
+            .know-more-link,
+            .cta {
+                font-size: 16px;
+            }
+
+            .contact-info {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Swati Yoga Studio <span class="punawale">Punawale</span></h1>
+        <a href="know_moreDRAFT.html" class="know-more-link">Timings</a>
+    </header>
+
+    <div class="main-content">
+        <h2><strong>First Ever Dedicated Yoga Studio in Punawale</strong></h2>
+        <p><strong>RYT500 Yoga Alliance USA Certified Yoga Trainer</strong></p>
+
+        <p><strong>Our Services:</strong></p>
+        <div class="services">
+            <span>🧘 Ashtanga Yoga</span>
+            <span>🤸 Mat Pilates</span>
+            <span>🤰 Prenatal Yoga</span>
+            <span>🩺 Yoga for PCOD/PCOS</span>
+            <span>🧒 Kids Yoga</span>
+            <span>🏋️ Aerial Yoga</span>
+            <span>🔥 Power Vinyasa</span>
+            <span>💪 Advance Asanas</span>
+            <span>🌬️ Pranayama</span>
+            <span>🕉️ Meditation</span>
+        </div>
+
+        <p><strong><i>Experience the Peace, Strength & Wellness</i></strong></p>
+        <p><i>Under the guidance of a Professional Instructor at a Serene & Tranquil Space</i></p>
+
+        <!-- Moved WhatsApp Link Here -->
+        <a href="https://wa.me/+919723449637" class="cta" target="_blank"><i>Contact us on WhatsApp</i></a>
+
+        <div class="contact-info">
+            <p>📍 <strong>Location:</strong> Shop 25, Adiam Ville, Punawale</p>
+            <p>📞 <strong>Contact us:</strong> +91 972 344 9637</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Swati Yoga Studio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
